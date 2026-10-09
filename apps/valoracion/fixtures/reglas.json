@@ -1,0 +1,50 @@
+[
+  {
+    "model": "valoracion.reglaexperto", "pk": 1,
+    "fields": {
+      "codigo": "R-001", "descripcion": "Desnutrición severa por IMC bajo",
+      "imc_min": "0.00", "imc_max": "16.00",
+      "edad_min": 5, "edad_max": 99,
+      "nivel_se": "cualquiera", "nivel_actividad": "cualquiera",
+      "clasificacion": "Desnutrición severa",
+      "observacion": "Priorizar proteínas y carbohidratos de alta densidad energética",
+      "prioridad": 10
+    }
+  },
+  {
+    "model": "valoracion.reglaexperto", "pk": 2,
+    "fields": {
+      "codigo": "R-002", "descripcion": "Desnutrición moderada en nivel socioeconómico bajo",
+      "imc_min": "16.00", "imc_max": "18.50",
+      "edad_min": 5, "edad_max": 99,
+      "nivel_se": "bajo", "nivel_actividad": "cualquiera",
+      "clasificacion": "Desnutrición moderada",
+      "observacion": "Incluir leguminosas, cereales y frutas del PAE",
+      "prioridad": 8
+    }
+  },
+  {
+    "model": "valoracion.reglaexperto", "pk": 3,
+    "fields": {
+      "codigo": "R-003", "descripcion": "Estado nutricional normal",
+      "imc_min": "18.50", "imc_max": "25.00",
+      "edad_min": null, "edad_max": null,
+      "nivel_se": "cualquiera", "nivel_actividad": "cualquiera",
+      "clasificacion": "Normal",
+      "observacion": "Mantener dieta equilibrada y variada con los grupos del PAE",
+      "prioridad": 5
+    }
+  },
+  {
+    "model": "valoracion.reglaexperto", "pk": 4,
+    "fields": {
+      "codigo": "R-004", "descripcion": "Sobrepeso u obesidad con actividad física baja",
+      "imc_min": "25.00", "imc_max": "60.00",
+      "edad_min": 5, "edad_max": 99,
+      "nivel_se": "cualquiera", "nivel_actividad": "cualquiera",
+      "clasificacion": "Sobrepeso / Obesidad",
+      "observacion": "Reducir azúcares y grasas, aumentar verduras y proteína magra",
+      "prioridad": 7
+    }
+  }
+]
