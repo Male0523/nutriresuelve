@@ -1,0 +1,16 @@
+[
+  {"model": "recomendaciones.categoriaalimento", "pk": 1, "fields": {"nombre": "Proteínas"}},
+  {"model": "recomendaciones.categoriaalimento", "pk": 2, "fields": {"nombre": "Cereales"}},
+  {"model": "recomendaciones.categoriaalimento", "pk": 3, "fields": {"nombre": "Frutas"}},
+  {"model": "recomendaciones.categoriaalimento", "pk": 4, "fields": {"nombre": "Verduras"}},
+  {"model": "recomendaciones.categoriaalimento", "pk": 5, "fields": {"nombre": "Leguminosas"}},
+
+  {"model": "recomendaciones.alimento", "pk": 1, "fields": {"nombre": "Huevo", "categoria": 1, "disponible_pae": true, "alergeno": false, "descripcion": ""}},
+  {"model": "recomendaciones.alimento", "pk": 2, "fields": {"nombre": "Pollo", "categoria": 1, "disponible_pae": true, "alergeno": false, "descripcion": ""}},
+  {"model": "recomendaciones.alimento", "pk": 3, "fields": {"nombre": "Arroz", "categoria": 2, "disponible_pae": true, "alergeno": false, "descripcion": ""}},
+  {"model": "recomendaciones.alimento", "pk": 4, "fields": {"nombre": "Papaya", "categoria": 3, "disponible_pae": true, "alergeno": false, "descripcion": ""}},
+  {"model": "recomendaciones.alimento", "pk": 5, "fields": {"nombre": "Platano", "categoria": 3, "disponible_pae": true, "alergeno": false, "descripcion": ""}},
+  {"model": "recomendaciones.alimento", "pk": 6, "fields": {"nombre": "Zanahoria", "categoria": 4, "disponible_pae": true, "alergeno": false, "descripcion": ""}},
+  {"model": "recomendaciones.alimento", "pk": 7, "fields": {"nombre": "Frijoles", "categoria": 5, "disponible_pae": true, "alergeno": false, "descripcion": ""}},
+  {"model": "recomendaciones.alimento", "pk": 8, "fields": {"nombre": "Lentejas", "categoria": 5, "disponible_pae": true, "alergeno": false, "descripcion": ""}}
+]
