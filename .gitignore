@@ -1,0 +1,36 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de Python (Byte-code y caché)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Base de datos local (par*.pyca no subir la BD de desarrollo)
+*.sqlite3
+*.db
+
+# Configuración y variables de entorno
+.env
+local_settings.py
+
+# Editor de código e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos estáticos y subidas en desarrollo
+/staticfiles/
+/media/
+
+# Logs de error y del sistema
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
