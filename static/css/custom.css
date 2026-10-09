@@ -1,0 +1,68 @@
+/* NutriGuajira - Estilos personalizados */
+
+:root {
+    --ng-green: #198754;
+    --ng-green-light: #e9f7ef;
+    --ng-green-dark: #146c43;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+/* Sidebar */
+.sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* Cards */
+.card {
+    transition: box-shadow 0.2s ease;
+}
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+/* Badges IMC */
+.imc-severo { background-color: #dc3545; color: white; }
+.imc-moderado { background-color: #fd7e14; color: white; }
+.imc-normal { background-color: #198754; color: white; }
+.imc-sobrepeso { background-color: #ffc107; color: #000; }
+
+/* Botones */
+.btn-success {
+    background-color: var(--ng-green);
+    border-color: var(--ng-green);
+}
+.btn-success:hover {
+    background-color: var(--ng-green-dark);
+    border-color: var(--ng-green-dark);
+}
+
+/* Tablas */
+.table th {
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #6c757d;
+}
+
+/* Plan IA */
+.plan-ia {
+    background-color: #f0fdf4;
+    border-left: 4px solid var(--ng-green);
+    border-radius: 8px;
+    padding: 1.5rem;
+    white-space: pre-line;
+    line-height: 1.7;
+}
+
+/* Gráfica seguimiento */
+.evolucion-card {
+    background: linear-gradient(135deg, #e9f7ef 0%, #ffffff 100%);
+}
